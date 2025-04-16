@@ -7,7 +7,7 @@ import wildDuckRouter from './routes/wildDuckRouter.js';
 import errorHandler from './middlewares/errorHandler.js';
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
